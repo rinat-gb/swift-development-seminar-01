@@ -26,13 +26,13 @@ class ViewController: UIViewController {
 
     private var textFldLoginView: UITextField = {
         let textField = UITextField()
-        textField.attributedPlaceholder = NSAttributedString(string: "Логин")
+        textField.placeholder = "Логин"
         return textField
     }()
 
     private var textFldPasswordView: UITextField = {
         let textField = UITextField()
-        textField.attributedPlaceholder = NSAttributedString(string: "Пароль")
+        textField.placeholder = "Пароль"
         return textField
     }()
 
